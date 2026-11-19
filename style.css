@@ -1,0 +1,38 @@
+body {
+    background-image: url('img/img1.jpg.jpeg'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+}
+
+
+p {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+}
+
+
+.imagen-central {
+    display: block;          
+    margin: 0 auto;          
+    width: 600px;            
+    height: auto;            
+}
+
+
+
+
+.video-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    margin: 30px auto;       
+    width: 100%;             
+}
+
+.video-container iframe {
+    max-width: 100%;
+    border-radius: 8px;      
+}
